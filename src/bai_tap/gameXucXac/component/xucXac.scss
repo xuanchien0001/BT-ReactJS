@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Pony";
+  src: url("../image/Pony.ttf");
+}
+.XucXacContainer {
+  height: 100vh;
+  background-image: url("../image/bgGame.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Pony;
+  .btn_taiXiu {
+    width: 8rem;
+    height: 8rem;
+    background-color: rgb(32, 70, 174);
+    font-size: 3rem;
+    border-radius: 0.3rem;
+    color: white;
+  }
+  .canhgiua_x {
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+}
